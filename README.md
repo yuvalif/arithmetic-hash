@@ -13,7 +13,7 @@ g++ -Wall --std=c++20 -o hash hash.cpp
 g++ -Wall --std=c++20 -o generate_names generate_names.cpp
 ```
 
-# run
+## run
 to create a file with lines to hash:
 ```
 ./generate_names <# prefixes> <# of name in perfix> > names.txt
